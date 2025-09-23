@@ -281,14 +281,12 @@ body {
   margin-bottom: 1rem;
 }
 
-.favorite .row .content p {
+.about .row .content p {
   margin-bottom: 0.8rem;
   font-size: 1.4rem;
   font-weight: 100;
   line-height: 1.5;
 }
-
-
 
 
 
@@ -367,6 +365,29 @@ body {
   }
 
   .about .row .content p {
+    font-size: 1.6rem;
+  }
+  /* favorite */
+  .favorite .row {
+    flex-wrap: wrap;
+  }
+
+  .favorite .row .about-img img {
+    height: 24rem;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .favorite .row .content {
+    padding: 0;
+  }
+
+  .favorite .row .content h3 {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+
+  .favorite .row .content p {
     font-size: 1.6rem;
   }
 
