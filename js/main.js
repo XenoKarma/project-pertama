@@ -15,6 +15,8 @@ document.addEventListener('click', function(e){
   }
 })
 
+
+
 // Gallery
 const modal = document.getElementById("modal");
     const modalImg = document.getElementById("modal-img");
